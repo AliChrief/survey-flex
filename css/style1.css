@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: gray;
+}
+.container{
+    margin:5% 20%;
+    background-color:gainsboro;
+}
+.title{
+    text-align: center;
+    color:rgba(134, 17, 39, 0.808);
+    background-color: white;
+    padding:40px 0;
+    font-weight:1000;
+    
+}
+.window{
+    display:flex;
+    justify-content:space-between;
+}
+.label{
+    padding-top:10px;
+    color:rgba(134, 17, 39, 0.808);
+}
+
+.input{
+    size:100px;
+    height:30px;
+    width:250px;
+    margin-top:10px;
+}
+.entire{
+    display:flex;
+    justify-content:space-between;
+}
+.text{
+    padding-right:220px;
+}
+.date{
+    padding-left:40px;
+}
+.par{
+    color:rgba(134, 17, 39, 0.808);
+    padding-left:40px;
+    padding-top:50px;
+    padding-bottom:20px;
+}
+.left{
+    padding-left:40px;
+    
+    color:rgba(134, 17, 39, 0.808);
+}
+.right{
+    
+    padding-right:420px;
+    color:rgba(134, 17, 39, 0.808);
+}
+.No{
+    padding-right:455px;
+    color:rgba(134, 17, 39, 0.808);
+}
+.text-area{
+    padding-left:12px;
+    padding-top:4px;
+    margin-left:40px;
+}
+
+.submit{
+    text-align: center;
+    width:167px;
+    height:40px;
+    margin-left:250px;
+    margin-top:40px;
+    margin-bottom:40px;
+    background-color:rgb(87, 78, 78);
+    color:white;
+    border-radius: 7px;
+    font-weight:900;
+    
+}
+.final{
+    padding-right:254px;
+    color:rgba(134, 17, 39, 0.808);
+}
